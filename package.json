@@ -1,0 +1,14 @@
+{
+  "name": "sweepstore",
+  "version": "1.0.0",
+  "description": "sweepStore Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sweep26",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^12.0.1"
+  }
+}
