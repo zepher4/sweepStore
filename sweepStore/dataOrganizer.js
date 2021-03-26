@@ -23,7 +23,6 @@ const parser = require('csv-parse');
 const fs = require('fs');
 const { delimiter } = require('path');
 const csvData = [];
-const temp = [];
 
 fs.createReadStream(dbPath)
     .pipe(parser({
